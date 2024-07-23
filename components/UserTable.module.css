@@ -1,0 +1,68 @@
+.tableContainer {
+    /* padding: 2rem; */
+}
+
+.btnDelete{
+    padding: 0.5rem 3.25rem;
+    color: gray;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    background: transparent;
+    font-weight: 500;
+    text-align: center;
+}
+
+.searchField {
+    outline: none;
+    margin: 2rem 0rem 1.5rem 0rem;
+    /* border: 1px solid rgba(175, 175, 175, 0.666); */
+}
+
+.tableHeader{
+    color: rgb(162, 162, 162);
+}
+
+.tableCellName{
+    font-weight: 600;
+}
+
+.tableCellEmail{
+    font-weight: 500;
+}
+
+.tableCellusername{
+    font-weight: 500;
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .paginationButton {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .paginationButton:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  
+  .rowsPerPage {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
